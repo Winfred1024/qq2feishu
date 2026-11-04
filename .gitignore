@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 含 webhook 密钥，不要提交
+config.json
+
+# 运行期产物
+*.log
+state.db
+state.db-wal
+state.db-shm

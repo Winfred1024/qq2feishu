@@ -1,0 +1,30 @@
+{
+  "feishu": {
+    "webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/请替换成你的地址",
+    "secret": "",
+    "msg_type": "text",
+    "at_all": false
+  },
+  "monitor": {
+    "bundle_ids": ["com.tencent.qq"],
+    "app_label": "QQ",
+    "db_path": "",
+    "poll_interval": 3,
+    "backfill_minutes": 0
+  },
+  "filter": {
+    "include_titles": [],
+    "exclude_titles": [],
+    "exclude_keywords": [],
+    "skip_empty_body": true,
+    "skip_presented": false
+  },
+  "runtime": {
+    "state_path": "~/.qq2feishu/state.db",
+    "log_path": "~/.qq2feishu/qq2feishu.log",
+    "log_level": "INFO",
+    "min_send_interval": 0.3,
+    "max_send_attempts": 3,
+    "page_size": 200
+  }
+}
